@@ -40,7 +40,9 @@ function changeImageSrc(image, src) {
 	clearCrop();
 
 	futureSources = [];
-	pastSources.push(image.src);
+	if(image.src !== undefined && image.src !== null && image.src !== ""){
+		pastSources.push(image.src);
+	}
 	image.src = src;
 
 	if (pastSources.length > 0) {
@@ -78,7 +80,6 @@ function setupImage() {
 
 	baseImage = new Image();
 	baseImage.addEventListener("load", startup, false);
-	baseImage.src = "images/image.jpg";
 
 }
 
