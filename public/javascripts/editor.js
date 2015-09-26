@@ -2,6 +2,9 @@ var context = document.getElementById("imageCanvas").getContext("2d");
 var cropContext = document.getElementById("cropCanvas").getContext("2d");
 var container = document.getElementById("canvasContainer");
 
+var btnUndo = document.getElementById("btnUndo");
+var btnRedo = document.getElementById("btnRedo");
+
 var pastSources = [];
 var futureSources = [];
 var baseImage;
