@@ -1,10 +1,18 @@
+.body-content {
+    margin-top: 60px;
+}
+
+.form-inline .form-control.crop-control {
+    width: 100px;
+}
+
 canvas {
     position: absolute;
 }
 
 .canvas-parent {
-    width: 1000px;
-    height: 1300px;
+    width: 1100px;
+    height: 800px;
     padding: 14px;
     background-image: url('data:image/bmp;base64,Qk3mBAAAAAAAADYAAAAoAAAAFAAAABQAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////////////////') /*Images/Background.bmp*/;
     background-repeat: repeat;
